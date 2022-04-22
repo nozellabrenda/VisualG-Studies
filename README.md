@@ -36,7 +36,7 @@ Fimalgoritmo
 ```
 ### Algoritmo "Soma e Média"
 ``` 
-Algoritmo "SomaMedia"
+Algoritmo "Soma_Media"
 
 Var
 nomeAlg: caracter
@@ -62,5 +62,6 @@ Escreva("Resultado da Média usando a variável resultadoSoma: ")
 Escreva(resultadoMedia2)
 
 Fimalgoritmo
+
 ```
 
