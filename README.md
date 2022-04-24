@@ -1,5 +1,8 @@
 # VisualG-Studies
-Pseudocodes written on VisualG
+Pseudocodes 
+
+Written on VisualG
+
 
 ### Algoritmo "Variáveis e Operadores"
 ``` 
