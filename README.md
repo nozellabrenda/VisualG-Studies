@@ -194,3 +194,65 @@ Escreval("Resultado da média: ", resultadoMedia)
 
 Fimalgoritmo
 ```
+
+### Algoritmo "Idade Se"
+```
+Algoritmo "IdadeSe"
+
+Var
+Idade: inteiro
+
+Inicio
+Escreva("Digite a idade: ")
+Leia(Idade)
+Se ((Idade > 17) E (Idade < 60)) Entao
+Escreva(Idade)
+Fimse
+
+Fimalgoritmo
+
+```
+
+### Algoritmo "Idade Se Se Não"
+```
+Algoritmo "IdadeSeSeNao"
+
+Var
+Idade: inteiro
+
+Inicio
+Escreva("Digite a idade: ")
+Leia(Idade)
+Se ((Idade > 17) E (Idade < 60)) Entao
+   Escreva("Entrada Válida")
+Senao
+   Escreva("Entrada Inválida!")
+Fimse
+
+Fimalgoritmo
+
+```
+
+### Algoritmo "Idade Se Se Não 2"
+```
+Algoritmo "IdadeSeSeNaoAni"
+
+Var
+Idade: inteiro
+
+Inicio
+Escreva("Digite a idade: ")
+Leia(Idade)
+Se ((Idade > 17) E (Idade < 60)) Entao
+   Escreva("Adulto")
+Senao
+   Se (Idade < 17) Entao
+   Escreva("Criança")
+      Senao
+      Escreva("Idoso")
+      Fimse
+Fimse
+
+Fimalgoritmo
+
+```
