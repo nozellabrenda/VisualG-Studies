@@ -1,4 +1,4 @@
-Algoritmo "Escolha"
+Algoritmo "Escolha-5B"
 
 Var
 OP: Inteiro
