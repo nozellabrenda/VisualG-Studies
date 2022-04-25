@@ -324,3 +324,132 @@ Escreval(Resultado)
 Fimalgoritmo
 
 ```
+
+
+### Algoritmos com "Enquanto"
+
+```
+Algoritmo "Enquanto1a5Soma"
+
+Var
+i, soma, num: inteiro
+
+Inicio
+i <- 1
+     Enquanto i <= 5 Faca
+     Escreval("Digite um número do tipo inteiro para a Soma: ")
+     Leia(num)
+     soma <- soma+num
+     i <- i+1
+FimEnquanto
+Escreval ("Resultado da Soma: ", soma)
+
+Fimalgoritmo
+
+```
+
+```
+Algoritmo "Enquanto1a10"
+
+Var
+i: inteiro
+
+Inicio
+i <- 1
+     Enquanto i <= 10 Faca
+     Escreval("Valor de i: ", i)
+     i <- i+1
+FimEnquanto
+
+
+Fimalgoritmo
+```
+
+### Algoritmos com "Repita"
+```
+Algoritmo "Repita1a5Multi"
+
+Var
+i, multi, num: inteiro
+
+Inicio
+multi <- 1
+     Repita
+     Escreval("Digite um número do tipo inteiro: ")
+     Leia(num)
+     multi <- multi*num
+     i <- i+1
+     Ate i >= 5
+Escreval ("Resultado da multiplicação: ", multi)
+
+Fimalgoritmo
+
+```
+```
+Algoritmo "Repita1a10"
+
+Var
+i: inteiro
+
+Inicio
+i <- 1
+     Repita
+     Escreval("Valor de i: ", i)
+     i <- i+1
+     Ate i >= 10
+
+Fimalgoritmo
+
+```
+
+### Algoritmos com "Para"
+```
+Algoritmo "Para1a5Multi"
+
+Var
+i, multi, num: inteiro
+
+Inicio
+multi <- 1
+     Para i de 1 ate 5 Faca
+     Escreval("Digite um número do tipo inteiro: ")
+     Leia(num)
+     multi <- multi*num
+     i <- i+1
+FimPara
+Escreval ("Resultado da multiplicação: ", multi)
+
+Fimalgoritmo
+
+```
+```
+Algoritmo "Para1a10"
+
+Var
+i: inteiro
+
+Inicio
+Para i de 1 Ate 10 Faca
+     Escreva (i)
+FimPara
+
+Fimalgoritmo
+
+```
+```
+Algoritmo "Para1a10Aninhado"
+
+Var
+i, j: inteiro
+
+Inicio
+Para i de 1 Ate 10 Faca
+     Escreval ("Valor de i: ", i)
+   Para j de 1 ate 3 Faca
+        Escreval("j: ", j)
+   FimPara
+FimPara
+
+Fimalgoritmo
+
+```
