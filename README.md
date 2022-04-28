@@ -453,3 +453,75 @@ FimPara
 Fimalgoritmo
 
 ```
+### Algoritmos com "Para"
+```
+Algoritmo "VetorNomes"
+
+Var
+nomes: vetor [1..5] de caractere
+contadorLoop1: inteiro
+
+Inicio
+Para contadorLoop1 de 1 ate 5 faca
+     Escreva("Digite o nome dx alunx", contadorLoop1, " de 5: ")
+     Leia(nomes[contadorLoop1])
+FimPara
+
+Para contadorLoop1 de 1 ate 5 faca
+     Escreval("Nome dx alunx ", nomes[contadorLoop1])
+FimPara
+
+Fimalgoritmo
+
+
+```
+```
+Algoritmo "VetorNotasDe5Alunxs"
+
+Var
+notas: vetor [1..5] de real
+contadorLoop1: inteiro
+media: real
+soma: real
+
+Inicio
+Para contadorLoop1 de 1 ate 5 faca
+     Escreva("Digite a nota dx alunx número ", contadorLoop1, " de 5: ")
+     Leia(notas[contadorLoop1])
+     soma <- soma + notas[contadorLoop1]
+FimPara
+
+Para contadorLoop1 de 1 ate 5 faca
+     Escreval("Nota dx alunx ", notas[contadorLoop1])
+FimPara
+
+Fimalgoritmo
+
+```
+```
+Algoritmo "VetorNotasNomesMedia5Alunxs"
+
+Var
+notas: vetor [1..5] de real
+nomes: vetor [1..5] de caractere
+i: inteiro
+media: real
+soma: real
+
+Inicio
+soma <- 0
+
+Para i de 1 ate 5 faca
+     Escreva("Digite o nome dx alunx ", i, " de 5: ")
+     Leia(nomes[i])
+     Escreva("Digite a nota dx alunx número ", i, " de 5: ")
+     Leia(notas[i])
+     soma <- soma + notas[i]
+FimPara
+
+media <- soma/i
+
+Escreval("Média dxs alunxs ", media)
+
+Fimalgoritmo
+```
