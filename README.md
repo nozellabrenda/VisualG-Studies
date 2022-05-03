@@ -1,7 +1,8 @@
 # VisualG-Studies
 Pseudocodes 
 
-Written on VisualG
+### :hammer: Built on:
+VisualG
 
 
 ### Algoritmo "Variáveis e Operadores"
