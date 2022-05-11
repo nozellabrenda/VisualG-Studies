@@ -577,3 +577,201 @@ Fimalgoritmo
 
 ```
 ### Algoritmos com "Procedimento"
+```
+Algoritmo "ExemploProcedimento"
+
+Var
+
+procedimento mostreNaTela
+var
+
+inicio
+      Escreva("Meu primeiro procedimento")
+fimprocedimento
+
+Inicio
+      Escreval("Mensagem do procedimento: ")
+      mostreNaTela
+
+Fimalgoritmo
+
+```
+```
+Algoritmo "ExemploProcedimento2"
+
+procedimento soma
+var
+aux: inteiro
+
+inicio
+aux <- n + m
+res <- aux
+fimprocedimento
+
+Var
+res, n, m: inteiro
+
+Inicio
+n <- 4
+m <- -9
+soma
+Escreva(res)
+
+Fimalgoritmo
+
+```
+Algoritmo "ExemploProcedimentoMulti"
+
+procedimento multi
+var
+aux: inteiro
+
+inicio
+aux <- n * m
+res <- aux
+fimprocedimento
+
+Var
+res, n, m: inteiro
+
+Inicio
+n <- 10
+m <- 12
+multi
+Escreva(res)
+
+Fimalgoritmo
+
+```
+```
+Algoritmo "OPERACAOALPHA"
+
+procedimento OPERACAOALPHA
+var
+aux: inteiro
+
+inicio
+aux <- a - b
+res <- aux
+fimprocedimento
+
+Var
+res, a, b: inteiro
+
+Inicio
+a <- 20
+b <- 6
+
+OPERACAOALPHA
+
+Escreva(res)
+
+Fimalgoritmo
+
+```
+```
+Algoritmo "OPERACAOBETA"
+
+procedimento OPERACAOBETA
+var
+aux: real
+
+inicio
+aux <- a/b
+res <- aux
+fimprocedimento
+
+Var
+res, a, b: real
+
+Inicio
+a <- 20
+b <- 5
+
+OPERACAOBETA
+
+Escreva(res)
+
+Fimalgoritmo
+
+```
+```
+Algoritmo "TERMODAPA"
+
+procedimento TERMODAPA
+var
+aux: inteiro
+
+inicio
+aux <- a1 + (n - 1) * r
+res <- aux
+fimprocedimento
+
+Var
+res, a1, n, r: inteiro
+
+Inicio
+a1 <- 20
+n <- 8
+r <- 4
+
+TERMODAPA
+
+Escreva(res)
+
+Fimalgoritmo
+
+```
+Algoritmo "ProcedimentoIdade"
+
+procedimento IDADE
+var
+aux: real
+
+inicio
+aux <- anoatual - anonascimento
+res <- aux
+fimprocedimento
+
+Var
+res, anoatual, anonascimento: real
+
+Inicio
+anoatual <- 2021
+anonascimento <- 1970
+
+IDADE
+
+Escreva(res)
+
+Fimalgoritmo
+
+```
+Algoritmo "CALCULAR VELOCIDADE MÉDIA"
+
+
+procedimento VELOCIDADE
+var
+aux: inteiro
+tempo: inteiro
+inicio
+tempo = tempofinal - tempoinicial
+aux <- d / tempo
+res <- aux
+fimprocedimento
+
+Var
+res, tempofinal, tempoinicial, d: inteiro
+
+Inicio
+tempofinal <- 10
+tempoinicial <- 8
+d <- 60
+
+VELOCIDADE
+
+Escreva(res)
+
+Fimalgoritmo
+
+```
