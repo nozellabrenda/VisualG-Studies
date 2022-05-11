@@ -620,6 +620,7 @@ Escreva(res)
 Fimalgoritmo
 
 ```
+```
 Algoritmo "ExemploProcedimentoMulti"
 
 procedimento multi
@@ -722,6 +723,7 @@ Escreva(res)
 Fimalgoritmo
 
 ```
+```
 Algoritmo "ProcedimentoIdade"
 
 procedimento IDADE
@@ -746,6 +748,7 @@ Escreva(res)
 
 Fimalgoritmo
 
+```
 ```
 Algoritmo "CALCULAR VELOCIDADE MÉDIA"
 
