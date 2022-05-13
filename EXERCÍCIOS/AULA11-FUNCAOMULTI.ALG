@@ -1,4 +1,4 @@
-Algoritmo "FuncaoExemploMulti"
+Algoritmo "AULA11-FuncaoMulti"
 
    funcao multi: inteiro
    var
@@ -15,9 +15,13 @@ n, m: inteiro
 res: inteiro
 
 Inicio
-n <- 10
-m <- 12
+Escreval("Digite o primeiro número da multiplicação:")
+Leia(n)
+Escreval("Digite o segundo número:")
+Leia(m)
+
 res <- multi
-Escreva (res)
+
+Escreval("O resultado é:", res)
 
 Fimalgoritmo
